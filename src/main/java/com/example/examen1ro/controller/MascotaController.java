@@ -1,9 +1,10 @@
 package com.example.examen1ro.controller;
 
-import org.springframework.web.bind.annotation.*;
-import java.util.List;
 import com.example.examen1ro.model.Mascota;
 import com.example.examen1ro.repository.MascotaRepository;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/mascotas")
