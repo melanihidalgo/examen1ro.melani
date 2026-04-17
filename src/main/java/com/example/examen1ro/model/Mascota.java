@@ -15,6 +15,7 @@ public class Mascota {
     private String nombre;
     private String tipo;
     private int edad;
+    private Long idDueno;
 
     public Mascota() {
     }
